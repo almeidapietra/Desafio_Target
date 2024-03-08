@@ -1,0 +1,18 @@
+Questão 4)
+
+A estratégia para descobrir qual interruptor controla cada lâmpada com apenas duas idas até uma das salas é a seguinte:
+
+Ações realizadas na sala dos interruptores:
+
+1. Ligar o primeiro interruptor e aguardar alguns minutos.
+2. Desligar o primeiro interruptor e, logo em seguida, ligar o segundo interruptor.
+
+PRIMEIRA IDA A UMA DAS SALAS: 
+verificar lâmpada:
+
+Se a lâmpada estiver acesa, o interruptor 2 controla essa lâmpada (porque o interruptor 1 foi ligado e desligado antes).
+Se a lâmpada estiver apagada e a lâmpada estiver quente ao toque, o interruptor 1 controla essa lâmpada (porque o interruptor 2 foi ligado quando o interruptor 1 estava aceso, aquecendo a lâmpada).
+Se a lâmpada estiver apagada e fria, o interruptor 3 controla essa lâmpada (porque o interruptor 2 foi ligado quando o interruptor 1 estava apagado e não aqueceu a lâmpada).
+
+Depois de determinado qual interruptor controla a lâmpada desta sala é só fazer o mesmo na SEGUNDA IDA - em outra sala, e determinar o interruptor da sala 3 por exclusão. 
+Dessa forma, com apenas duas idas até a sala, você pode determinar qual interruptor controla cada lâmpada.
