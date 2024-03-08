@@ -1,0 +1,28 @@
+function fibonacci(number) {
+    let a = 0;
+    let b = 1;
+    
+    if (number === a || number === b) {
+        return true;
+    }
+   
+    while (b <= number) {
+          if (b === number) {
+            return true;
+        }
+       
+        let next = a + b;
+        
+        a = b;
+        b = next;
+    }
+   
+    return false;
+}
+
+const numeroInformado = 21; 
+if (fibonacci(numeroInformado)) {
+    console.log(`${numeroInformado} pertence à sequência de Fibonacci.`);
+} else {
+    console.log(`${numeroInformado} não pertence à sequência de Fibonacci.`);
+}
