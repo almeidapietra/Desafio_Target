@@ -1,5 +1,6 @@
 # Repositório do Desafio Target
-Este repositório contém as respostas para as questões apresentadas no desafio da etapa de seleção da Target. Cada pasta ou arquivo corresponde a uma questão específica.
+Este repositório contém as respostas para as questões apresentadas no desafio da etapa de seleção da Target. 
+Cada pasta ou arquivo corresponde a uma questão específica.
 
 ## Estrutura do Repositório:
 
@@ -12,6 +13,7 @@ Este repositório contém as respostas para as questões apresentadas no desafio
 ## Instruções de Uso:
 
 Cada diretório possui o código-fonte ou a explicação relacionada à respectiva questão.
+
 Os programas estão escritos em Javascript.
 
 ## Agradecimento:
